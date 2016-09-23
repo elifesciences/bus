@@ -1,0 +1,14 @@
+{
+    "name": "elife/bus",
+    "description": "Snippets for using eLife's internal event bus",
+    "require": {
+        "aws/aws-sdk-php": "~3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "g.sironi@elifesciences.org"
+        }
+    ]
+}
