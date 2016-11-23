@@ -11,8 +11,8 @@ The schema of the JSON notifications being sent out follows these conventions (n
 ```
 {
     "type": "collection",
-        "id": "foobar"
-        }
+    "id": "foobar"
+}
 ```
 
 ```
@@ -31,3 +31,4 @@ The schema of the JSON notifications being sent out follows these conventions (n
 
 The `type` field is always named like this, while the name of the identifier field is the responsibility of the project that emits the notification.
 
+The allowed values for `type` correspond to the singular form of the SNS topics listed in [the bus project builder definition](https://github.com/elifesciences/builder/blob/master/projects/elife.yaml#L463). For example, `bus-podcast-episodes--{instance}` corresponding to a `"type":"podcast-episode"`.
