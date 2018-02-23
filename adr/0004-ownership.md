@@ -8,7 +8,7 @@ Proposed
 
 ## Context
 
-The `bus` is build to decoupled projects from each other, rather than adding a many-to-many web of API calls.
+The `bus` is designed to decoupled projects from each other, rather than adding a many-to-many web of API calls.
 
 The set of SNS topics should be very much stable as it contains published content types from the API.
 
